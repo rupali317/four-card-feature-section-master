@@ -3,24 +3,80 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
+    <meta
+      name="description"
+      content="A challenge to test multi-column and responsive layouts"
+    />
+    <meta
+      name="keywords"
+      content="Semantic HTML, CSS, features website, features component, responsive design, Frontend mentor"
+    />
+    <meta name="author" content="Rupali Roy Choudhury" />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
+    <link rel="stylesheet" href="styles.css" type="text/css" />
     <title>Frontend Mentor | Four card feature section</title>
   </head>
   <body>
-    Reliable, efficient delivery Powered by Technology Our Artificial
-    Intelligence powered tools use millions of project data points to ensure
-    that your project is successful Supervisor Monitors activity to identify
-    project roadblocks Team Builder Scans our talent network to create the
-    optimal team for your project Karma Regularly evaluates our talent to ensure
-    quality Calculator Uses data from past projects to provide better delivery
-    estimates
+    <h1>
+      <span class="text-style-3">Reliable, efficient delivery</span>
+      Powered by Technology
+    </h1>
+    <p>
+      Our Artificial Intelligence powered tools use millions of project data
+      points to ensure that your project is successful
+    </p>
+    <section class="cards">
+      <div class="card status-1">
+        <h2>Supervisor</h2>
+        <p>Monitors activity to identify project roadblocks</p>
+        <img
+          src="./images/icon-supervisor.svg"
+          alt=""
+          width="64"
+          height="64"
+          role="presentation"
+        />
+      </div>
+      <div class="card status-2">
+        <h2>Team Builder</h2>
+        <p>
+          Scans our talent network to create the optimal team for your project
+        </p>
+        <img
+          src="./images/icon-team-builder.svg"
+          alt=""
+          width="64"
+          height="64"
+          role="presentation"
+        />
+      </div>
+      <div class="card status-3">
+        <h2>Karma</h2>
+        <p>Regularly evaluates our talent to ensure quality</p>
+        <img
+          src="./images/icon-karma.svg"
+          alt=""
+          width="64"
+          height="64"
+          role="presentation"
+        />
+      </div>
+      <div class="card status-4">
+        <h2>Calculator</h2>
+        <p>Uses data from past projects to provide better delivery estimates</p>
+        <img
+          src="./images/icon-calculator.svg"
+          alt=""
+          width="64"
+          height="64"
+          role="presentation"
+        />
+      </div>
+    </section>
   </body>
 </html>
