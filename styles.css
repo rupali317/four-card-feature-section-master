@@ -1,0 +1,64 @@
+/********************* Global definitions ***************************/
+:root {
+  /* Colors */
+  --color-neutral-1: hsl(234, 12%, 34%);
+  --color-neutral-2: hsl(212, 6%, 44%);
+  --color-neutral-3: hsl(0, 0%, 100%);
+  --color-miscellaneous-1: hsl(0, 78%, 62%);
+  --color-miscellaneous-2: hsl(180, 62%, 55%);
+  --color-miscellaneous-3: hsl(212, 86%, 64%);
+  --color-miscellaneous-4: hsl(34, 97%, 64%);
+  --color-miscellaneous-5: hsla(213, 47%, 67%, 0.5);
+
+  /* Font sizes */
+  --font-size-1: 0.8125rem; /* 13px */
+  --font-size-2: 0.9375rem; /* 15px */
+  --font-size-3: 1.25rem; /* 20px */
+  --font-size-4: 1.5rem; /* 24px */
+  --font-size-5: 2.25rem; /* 36px */
+
+  /* Line heights */
+  --line-height-1: 135%;
+  --line-height-2: 140%;
+  --line-height-3: 160%;
+
+  /* Letter spacings */
+  --letter-spacing-1: 0.015625rem; /* 0.25rem */
+
+  /* Shadows */
+  --shadow-1: 0rem 0.9375rem 1.875rem -0.6875rem var(--color-miscellaneous-5); /* 0px 15px 30px -11px */
+
+  /* Border radius */
+  --border-radius-1: 0.5rem; /* 8px */
+
+  /* Spacings */
+  --space-1: 0.25rem; /* 4px */
+  --space-2: 0.5rem; /* 8px */
+  --space-3: 1rem; /* 16px */
+  --space-4: 1.5rem; /* 24px */
+  --space-5: 2rem; /* 32px */
+  --space-6: 2.5rem; /* 40px */
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/Poppins-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+}
+/*********************** CSS resets *********************************/
+/********************* Main stylings ********************************/
