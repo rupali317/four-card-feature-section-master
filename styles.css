@@ -61,4 +61,51 @@
   font-display: swap;
 }
 /*********************** CSS resets *********************************/
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Prevent font size inflation */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+body,
+h1,
+h2,
+p {
+  margin-block-end: 0;
+}
+
+/* Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Set shorter line heights on headings and interactive elements, Balance text wrapping on headings */
+h1,
+h2 {
+  line-height: 1.1;
+  text-wrap: balance;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
 /********************* Main stylings ********************************/
