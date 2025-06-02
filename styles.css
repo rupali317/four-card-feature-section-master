@@ -132,6 +132,7 @@ header {
   margin-right: auto;
   max-width: 19.75rem; /* 316px */
 
+  h1,
   p {
     margin-top: var(--space-none);
   }
