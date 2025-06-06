@@ -176,6 +176,10 @@ header {
   letter-spacing: var(--letter-spacing-3);
 }
 
+.text-align-center {
+  text-align: center;
+}
+
 section.cards {
   display: flex;
   flex-direction: column;
@@ -231,7 +235,6 @@ section.cards {
   }
 
   header {
-    text-align: center;
     max-width: 33.75rem; /* 540px */
     margin-bottom: var(--space-9);
   }
