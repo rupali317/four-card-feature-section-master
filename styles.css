@@ -214,6 +214,8 @@ section.cards {
   }
 
   img {
+    width: 4rem;
+    height: auto;
     margin-top: var(--space-6);
     float: right;
   }
