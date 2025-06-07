@@ -48,8 +48,8 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: [Four card feature section solution](https://rupali317.github.io/four-card-feature-section-master/)
-- Live Site URL: [Four card feature section live URL](https://github.com/rupali317/four-card-feature-section-master)
+- Live site URL: [Four card feature section live URL](https://rupali317.github.io/four-card-feature-section-master/)
+- Solution URL: [Four card feature section solution](https://github.com/rupali317/four-card-feature-section-master)
 
 ## My process
 
@@ -106,7 +106,7 @@ Fixed it by the following:
 }
 ```
 
-In the fixed approach, the heading 1 just has the text without any children HTML elements. This prevents the text from repeated twice. The different style within the heading is fixed by using ::first-line
+In the fixed approach, the heading 1 just has the text without any children HTML elements. This prevents the text from repeated twice. The different style within the heading is fixed by using `::first-line`
 
 ## Acknowledgement
 
