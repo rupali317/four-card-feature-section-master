@@ -149,27 +149,27 @@ header {
   letter-spacing: var(--letter-spacing-1);
 }
 
-.text-preset-2 {
+.text-preset-1::first-line {
   font-weight: var(--font-weight-extra-light);
   font-size: var(--font-size-4);
   line-height: var(--line-height-2);
   letter-spacing: var(--letter-spacing-1);
 }
 
-.text-preset-3 {
+.text-preset-2 {
   font-weight: var(--font-weight-semi-bold);
   font-size: var(--font-size-3);
   line-height: var(--line-height-1);
 }
 
-.text-preset-4 {
+.text-preset-3 {
   font-weight: var(--font-weight-regular);
   font-size: var(--font-size-2);
   line-height: var(--line-height-2);
   letter-spacing: var(--letter-spacing-2);
 }
 
-.text-preset-5 {
+.text-preset-4 {
   font-weight: var(--font-weight-regular);
   font-size: var(--font-size-1);
   line-height: var(--line-height-3);
@@ -230,7 +230,7 @@ section.cards {
     font-size: var(--font-size-5);
   }
 
-  .text-preset-2 {
+  .text-preset-1::first-line {
     font-size: var(--font-size-5);
   }
 
