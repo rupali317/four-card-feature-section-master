@@ -123,14 +123,14 @@ header {
   display: flex;
   flex-direction: column;
   gap: var(--space-4);
-  margin-bottom: var(--space-8);
-  margin-left: auto;
-  margin-right: auto;
+  margin-block-end: var(--space-8);
+  margin-inline-start: auto;
+  margin-inline-end: auto;
   max-width: 19.75rem; /* 316px */
 
   h1,
   p {
-    margin-top: var(--space-none);
+    margin-block-start: var(--space-none);
   }
 }
 
@@ -208,17 +208,17 @@ section.cards {
   }
 
   h2 {
-    margin-top: var(--space-none);
+    margin-block-start: var(--space-none);
   }
 
   p {
-    margin-top: var(--space-2);
+    margin-block-start: var(--space-2);
   }
 
   img {
     width: 4rem;
     height: auto;
-    margin-top: var(--space-6);
+    margin-block-start: var(--space-6);
     align-self: flex-end;
   }
 }
@@ -234,7 +234,7 @@ section.cards {
 
   header {
     max-width: 33.75rem; /* 540px */
-    margin-bottom: var(--space-9);
+    margin-block-end: var(--space-9);
   }
 
   section.cards {
